@@ -86,15 +86,17 @@ The final reported prediction is the arithmetic mean of the conformer-level prob
 
 ## Repository Contents
 
+```
 .
-├── model.py # Data processing, training, and inference code
-├── hERG_activity.csv # Curated bioactivity dataset
-├── CHEMBL240_3D_descriptors.csv # 3D descriptor matrix
-├── CHEMBL240_3D_molecules.pkl # RDKit molecule objects with conformers
-├── CHEMBL240_hERG_with_3D.pkl # Integrated dataset with 3D structures
-├── herg_rf_model_v1.joblib # Trained Random Forest model
-├── herg_rf_features_v1.joblib # Descriptor set used for inference
+├── model.py                         # Data processing, training, and inference code
+├── hERG_activity.csv                # Curated bioactivity dataset
+├── CHEMBL240_3D_descriptors.csv     # 3D descriptor matrix
+├── CHEMBL240_3D_molecules.pkl       # RDKit molecule objects with conformers
+├── CHEMBL240_hERG_with_3D.pkl       # Integrated dataset with 3D structures
+├── herg_rf_model_v1.joblib          # Trained Random Forest model
+├── herg_rf_features_v1.joblib       # Descriptor set used for inference
 └── README.md
+```
 
 ---
 
