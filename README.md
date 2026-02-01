@@ -1,6 +1,6 @@
-# 3D-QSAR Model for Prediction of hERG Channel Blockade
+# 3D structure aware QSAR Model for Prediction of hERG Channel Blockade
 
-This repository contains a three-dimensional quantitative structure–activity relationship (3D-QSAR) model developed to predict hERG (KCNH2) potassium channel blockade, a major cardiotoxicity liability in small-molecule drug discovery.
+This repository contains a three-dimensional structure aware quantitative structure–activity relationship (3D-QSAR) model developed to predict hERG (KCNH2) potassium channel blockade, a major cardiotoxicity liability in small-molecule drug discovery.
 
 The model is based on a Random Forest classifier trained on molecular descriptors computed from RDKit-generated three-dimensional conformers.
 
